@@ -1,0 +1,83 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* ----- Global Styles ---- */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+header.primary {
+  background-color: #181c1f;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  /* Shorhand T,R,B,L*/
+  padding: 20em 2em;
+  position: relative;
+}
+header.primary h1 {
+  font-size: 3.2rem;
+  margin: 20px 0;
+  position: relative;
+}
+
+header.primary::before {
+  content: "";
+  background-image: url("https://storywarren.com/wp-content/uploads/2016/09/space-1.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .5;
+}
+
+header.primary nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+
+header.primary nav li {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #000000;
+  background-color: rgba(142, 166, 184, 0.4);
+  padding: 8px 16px;
+  border-radius: 0px;
+  transition: 0.6s;
+  display: block;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+  background-color: rgba(51, 83, 107, 0.8);
+}
