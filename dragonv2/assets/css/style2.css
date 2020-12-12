@@ -14,6 +14,7 @@ html {
   max-width: 900px;
 }
 
+
 /* ----- Global Styles ---- */
 
 body {
@@ -35,10 +36,20 @@ header.primary h1 {
   margin: 20px 0;
   position: relative;
 }
+header.primary h1 a {
+  color: #ffffff;
+  background-image: url("../img2/history.png");
+  display: block;
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;}
 
 header.primary::before {
   content: "";
-  background-image: url("https://storywarren.com/wp-content/uploads/2016/09/space-1.jpg");
+  background-image: url("../img2/stars.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -80,4 +91,38 @@ header.primary nav a:visited {
 header.primary nav a:hover,
 header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
+}
+
+ 
+.gallery {
+	background-color: #CCC;
+	width: 730px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 4px solid #999;
+	height: 516px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+.gallery img {
+	margin: 15px;
+}
+
+footer#colophon {
+  background-color: #1b2c38;
+}
+
+#colophon h6 {
+  padding: 20px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
+
+#colophon h6 a:link,
+#colophon h6 a:visited {
+  color: #fff;
 }

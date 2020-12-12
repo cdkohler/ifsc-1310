@@ -64,7 +64,7 @@ header.primary {
 
 header.primary::before {
   content: "";
-  background-image: url("https://www.plataformamedia.com/wp-content/uploads/2020/11/Crew-Dragon-approaches-the-ISS-SpaceX-edit-scaled-1-1140x694.jpg");
+  background-image: url("../img1/spacex.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -82,7 +82,7 @@ header.primary h1 {
 
 header.primary h1 a {
   color: #ffffff;
-  background-image: url("https://assets.codepen.io/7248/logo-2.png");
+  background-image: url("../img1/logo-2.png");
   display: block;
   width: 450px;
   height: 70px;
@@ -95,7 +95,6 @@ header.primary h1 a {
 header.primary h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 2em;
-  /* Shorhand Three Value Top, Left/Right, Bottom*/
   margin: 20px auto 40px;
   position: relative;
 }
@@ -184,7 +183,7 @@ section#content tr:hover{
 /* ------------- Articles --------------- */
 
 section#articles {
-  background-image: url("https://www.policyforum.net/wp-content/uploads/2018/10/Watch-this-space.jpg");
+  background-image: url("../img1/earth.jpg");
   
 }
 
